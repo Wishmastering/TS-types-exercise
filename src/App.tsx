@@ -73,13 +73,14 @@
 
 //  ANT DESIGN EXERCISE
 
-import React from "react";
-import { PieChartOutlined } from "@ant-design/icons";
+import React, { FunctionComponent } from "react";
+import { Radio, RadioProps } from "antd";
+// import { PieChartOutlined } from "@ant-design/icons";
 
-const App = () => {
+const App: FunctionComponent<RadioProps> = (props) => {
   return (
     <div className="">
-      <PieChartOutlined className="pie-chart" spin={true} />
+      <Radio {...props}> Hello </Radio>
     </div>
   );
 };
