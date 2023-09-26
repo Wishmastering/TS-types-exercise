@@ -1,6 +1,7 @@
-div {
+.prapra {
   display: flex;
   justify-content: center;
+  background-color: papayawhip;
 }
 
 .pie-chart {

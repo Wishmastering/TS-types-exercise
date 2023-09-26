@@ -79,8 +79,8 @@ import { Radio, RadioProps } from "antd";
 
 const App: FunctionComponent<RadioProps> = (props) => {
   return (
-    <div className="">
-      <Radio {...props}> Hello </Radio>
+    <div className="prapra">
+      <Radio {...props}> {props.value} </Radio>
     </div>
   );
 };
